@@ -1,0 +1,197 @@
+1. Basic Literacy Analysis
+-----------------------------------------------------------------------
+# Overall Literacy Rate:
+Total Literacy Rate: 58.16%
+
+# Compare for India (all states aggregated) across 1991, 2001, 2011.
+  
+     Year  Literacy Rate (%)
+0  1991          45.199369
+1  2001          54.497735
+2  2011          63.052775
+
+# Plot trend line → shows how literacy improved over time.
+ From 1991 to 2011, India’s literacy rate improved by nearly 18 percentage points, reflecting steady but uneven progress.
+
+2. Gender-wise Literacy Rate:
+-------------------------------------------
+# Literate Males / Total Males
+Overall Male Literacy Rate: 65.94%
+
+# Literate Females / Total Females
+Overall Female Literacy Rate: 49.86%
+
+# Plot gap between male and female literacy over the years.
+Overall Increase:
+Both male and female literacy rates steadily increased between 1991 and 2011.
+
+Male Literacy Rate:
+
+1991: ~55%
+
+2001: ~63%
+
+2011: ~70%
+
+Female Literacy Rate:
+
+1991: ~35%
+
+2001: ~45%
+
+2011: ~56%
+
+Gender Gap:
+
+1991: ~20 percentage points (male 55% vs female 35%)
+
+2001: ~18 percentage points (63% vs 45%)
+
+2011: ~14 percentage points (70% vs 56%)
+👉 The gender gap has narrowed over time but still remains significant.
+Female literacy improved faster than male literacy, helping reduce the gender disparity in education, though men still had higher literacy rates across all three decades.
+
+3. State-wise Literacy Rate:
+--------------------------------------------------------
+
+Find top 2 and bottom 2 states for literacy in each year.
+
+📌 Top 2 States by Literacy Rate (each year):
+    Year   State Name  Literacy Rate (%)
+21  1991      MIZORAM          81.985294
+7   1991  DAMAN & DIU          73.150062
+48  2001       KERALA          80.039536
+53  2001      MIZORAM          74.439016
+80  2011       KERALA          84.223710
+73  2011          GOA          79.907511
+
+📌 Bottom 2 States by Literacy Rate (each year):
+    Year         State Name  Literacy Rate (%)
+14  1991          JHARKHAND          29.904651
+3   1991              BIHAR          22.078179
+46  2001          JHARKHAND          43.706954
+35  2001              BIHAR          37.482091
+65  2011  ARUNACHAL PRADESH          55.358102
+67  2011              BIHAR          50.436916
+
+4. Plot heatmap / choropleth map of India showing literacy distribution.
+------------------------------------------------------------------------------------------
+# heatmap findings
+Kerala is the leader in literacy.
+Bihar is the laggard but improving steadily.
+All states showed progress from 1991 → 2011, with many states surpassing 70% literacy by 2011.
+The regional divide persists, but the gap is shrinking.
+
+5. Educational Attainment Levels
+--------------------------------------------------------------
+
+# Distribution of Education Levels:
+From 1991 to 2011, India saw huge expansion in primary, middle, secondary, and higher education.
+
+Graduate population nearly doubled in 10 years (2001 → 2011).
+
+Despite progress, vocational/technical pathways remain underdeveloped.
+
+Education growth is broad-based but still bottom-heavy, with primary education dominating.
+
+
+
+6. Drop-off Rates:
+-------------------------------------------------------------------------------
+
+# Compare numbers from “Below Primary” → “Primary” → “Middle” → … → “Graduate”.
+Massive progress in education retention between 1991 and 2011, especially in primary, secondary, higher secondary, and graduation levels.
+
+Primary retention exceeds 100% in 2001/2011 due to expanded literacy/enrollment drives.
+
+Biggest gains: Higher secondary (+38% points) and graduate level (+36% points).
+
+Weakest area: Vocational/technical education, which remains neglected.
+7.Age-wise Education Analysis
+----------------------------------------------------------------------------------------
+India’s population surged across all age groups between 1991 and 2011.
+
+The 0–6 and 15–44 groups dominate, making India a youth-driven nation.
+
+The elderly population is rising slowly, hinting at future aging challenges.
+
+These trends highlight both opportunities (large workforce) and challenges (education, jobs, healthcare for a young and aging population).
+
+
+8. Inequality & Gender Gap Analysis
+------------------------------------------------------------------------------------------------
+
+#Male vs Female gap in literacy → state-wise and year-wise.
+Fastest Closing (Lowest Gap)
+
+1991: Mizoram, Kerala
+
+2001: Kerala, Mizoram
+
+2011: Kerala, Meghalaya
+
+❌ Slowest Closing (Highest Gap)
+
+1991: Arunachal Pradesh, Chhattisgarh
+
+2001: Madhya Pradesh, Dadra & Nagar Haveli
+
+2011: Jammu & Kashmir, Bihar
+
+9. Temporal Trends (1991 → 2011)
+-----------------------------------------------
+
+Identify fastest improving states.
+High growth in low-base states: Bihar and Jharkhand had lower starting literacy rates in 1991, so their large percentage improvements reflect catching up with the national trend.
+
+Sustained improvement post-2000: All three states continued to improve between 2001–2011, with Bihar leading.
+
+Top 3 Fastest Improving States (1991 → 2011):
+Year        Improvement_1991_2011  Improvement_2001_2011
+State Name                                              
+BIHAR                   28.358737              12.954824
+JHARKHAND               25.654930              11.852627
+KARNATAKA               21.715669               8.944189
+
+10. Urban vs Rural Divide (if Area column = Rural/Urban/Total)
+----------------------------------------------------------------------------------------
+
+#Literacy comparison: Rural vs Urban.
+📊 Rural vs Urban Literacy Summary (Year-wise)
+   Year   Area  Total Literacy Rate  Male Literacy Rate  Female Literacy Rate
+0  1991  Rural             0.565485            0.657496              0.465458
+1  1991  Urban             0.649432            0.735483              0.556986
+2  2001  Rural             0.597059            0.688387              0.499851
+3  2001  Urban             0.761566            0.824967              0.693611
+4  2011  Rural             0.686593            0.756418              0.615222
+5  2011  Urban             0.811323            0.857830              0.762976
+
+
+In 1991, urban literacy (64.9%) was ~9% higher than rural literacy (56.5%).
+
+By 2011, the gap persisted but narrowed slightly (Urban: 81.1%, Rural: 68.7% → ~12% difference).
+
+Urban India shows higher female literacy (76.3%) than even rural male literacy (75.6%) in 2011 → strong indicator of urban advantage.
+
+
+11. Clustering States:
+-------------------------------------------------------------------
+Literacy inequality between states is reducing, as many states moved upward in clusters.
+
+Southern and Western states lead, while northern and eastern states lag in literacy.
+
+Bihar and Jharkhand remain outliers, stuck in the Low cluster even by 2011.
+
+Policy impact is visible – states like Karnataka, Haryana, and Tripura show remarkable improvement into higher clusters.
+
+12. Forecasting:
+---------------------------------------------
+
+# Apply linear regression and logistic growth to forecast India’s literacy in 2021, 2031.
+Both models predict major improvement: India should cross 70% literacy by 2021, and approach 75–80% by 2031.
+
+Linear vs Logistic: Linear is optimistic (~81%), Logistic is cautious (~76%).
+
+Realistic long-term view: Logistic growth is more plausible since literacy cannot exceed 100% and progress naturally slows near saturation.
+
+Policy implication: To reach universal literacy, India needs accelerated interventions — otherwise growth will plateau around 75–80% by 2031.
